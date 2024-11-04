@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillSphere.Interaction.API", "src\SkillSphere.Interaction.API\SkillSphere.Interaction.API.csproj", "{EAE102BB-1D5C-4617-82D6-9C734A962BD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillSphere.Interaction.Contracts", "src\SkillSphere.Interaction.Contracts\SkillSphere.Interaction.Contracts.csproj", "{EB48FC73-D620-4BCC-AA77-E32540363F7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillSphere.Interaction.Core", "src\SkillSphere.Interaction.Core\SkillSphere.Interaction.Core.csproj", "{9F9B6EF1-0CBA-46BD-8BC8-83D5673A7B67}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillSphere.Interaction.DataAccess", "src\SkillSphere.Interaction.DataAccess\SkillSphere.Interaction.DataAccess.csproj", "{7AD2CEE1-E805-400B-8935-A688A42E0CAD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkillSphere.Interaction.UseCases", "src\SkillSphere.Interaction.UseCases\SkillSphere.Interaction.UseCases.csproj", "{D571736C-44D7-45B3-9EBD-5B088EE0F3B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAE102BB-1D5C-4617-82D6-9C734A962BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAE102BB-1D5C-4617-82D6-9C734A962BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAE102BB-1D5C-4617-82D6-9C734A962BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAE102BB-1D5C-4617-82D6-9C734A962BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB48FC73-D620-4BCC-AA77-E32540363F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB48FC73-D620-4BCC-AA77-E32540363F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB48FC73-D620-4BCC-AA77-E32540363F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB48FC73-D620-4BCC-AA77-E32540363F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F9B6EF1-0CBA-46BD-8BC8-83D5673A7B67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F9B6EF1-0CBA-46BD-8BC8-83D5673A7B67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F9B6EF1-0CBA-46BD-8BC8-83D5673A7B67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F9B6EF1-0CBA-46BD-8BC8-83D5673A7B67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AD2CEE1-E805-400B-8935-A688A42E0CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AD2CEE1-E805-400B-8935-A688A42E0CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AD2CEE1-E805-400B-8935-A688A42E0CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AD2CEE1-E805-400B-8935-A688A42E0CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D571736C-44D7-45B3-9EBD-5B088EE0F3B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D571736C-44D7-45B3-9EBD-5B088EE0F3B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D571736C-44D7-45B3-9EBD-5B088EE0F3B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D571736C-44D7-45B3-9EBD-5B088EE0F3B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E0DDC453-C721-47CA-98D4-42DF0F4B88D1}
+	EndGlobalSection
+EndGlobal
