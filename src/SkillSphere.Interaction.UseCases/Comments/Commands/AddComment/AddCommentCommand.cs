@@ -4,7 +4,7 @@ using SkillSphere.Interaction.Core;
 
 namespace SkillSphere.Interaction.UseCases.Comments.Commands.AddComment;
 
-public class AddCommentCommand : IRequest<Result<Comment>>
+public class AddCommentCommand : IRequest<Result<Comment>>, ICommentCommand
 {
     public Guid PostId { get; }
 

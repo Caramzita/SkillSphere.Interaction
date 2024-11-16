@@ -13,6 +13,8 @@ using SkillSphere.Interaction.UseCases.Services;
 using SkillSphere.Interaction.Core.Interfaces;
 using SkillSphere.Interaction.DataAccess.Repositories;
 using SkillSphere.Interaction.UseCases.Reactions.Commands.AddOrUpdateReaction;
+using SkillSphere.Interaction.UseCases.Comments.Commands.AddComment;
+using FluentValidation;
 
 internal class Program
 {
@@ -91,7 +93,7 @@ internal class Program
         services.AddScoped<IUserAccessor, UserAccessor>();
         services.AddHttpClient<IPostService, PostService>(client =>
         {
-            client.BaseAddress = new Uri("https://localhost:7235");
+            client.BaseAddress = new Uri(configuration["PostService"]!);
         });
 
         services.AddScoped<IReactionRepository, ReactionRepository>();
@@ -99,7 +101,7 @@ internal class Program
 
         services.AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
 
-        //services.AddValidatorsFromAssemblyContaining<RegisterCommandValidator>();
+        services.AddValidatorsFromAssemblyContaining<AddCommentCommandValidator>();
         services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
     }
 

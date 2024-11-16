@@ -5,13 +5,11 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <UserSecretsId>7da63087-bdb2-4036-bb38-a5bd0cd3d129</UserSecretsId>
-    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-    <DockerfileContext>..\..</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.10.0" />
     <PackageReference Include="MediatR" Version="12.4.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
       <PrivateAssets>all</PrivateAssets>
@@ -23,7 +21,7 @@
     <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
     <PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
     <PackageReference Include="SkillSphere.Infrastructure.Consul" Version="1.0.0" />
-    <PackageReference Include="SkillSphere.Infrastructure.Security" Version="1.0.3" />
+    <PackageReference Include="SkillSphere.Infrastructure.Security" Version="1.0.6" />
     <PackageReference Include="SkillSphere.Infrastructure.UseCases" Version="1.0.0" />
     <PackageReference Include="SkillSphere.Infrastructure.UseCases.DI" Version="1.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
